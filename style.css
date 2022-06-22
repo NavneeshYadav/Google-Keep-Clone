@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+   margin-bottom: 10px;
+}
+.btn-div{
+   display: flex;
+   justify-content:flex-end;
+   margin-right: 10px;
+}
+.note{
+   background-color: rgb(221 221 216);
+   overflow-y: scroll;
+   width: 350px;
+   height: 200px;
+   margin-top: 20px;
+   margin-left: 20px;
+   display: inline-block;
+}
+.operation{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 10px;
+   margin-top: 10px;
+   margin-bottom: 7px;
+}
+.operation button{
+   margin: 0 3px;
+}
+textarea{
+   margin-top: 2px;
+   width: 100%;
+   height: 100%;
+   border:none; 
+   padding: 15px;
+   background-color: rgb(221 221 216);
+}
+.hidden{
+   display: none;
+}
+.main{
+   margin: 20px;
+}
+
+@media only screen and (max-width:764px) {
+   .note{
+   
+   }
+}
