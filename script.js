@@ -15,8 +15,8 @@ const note=document.createElement("div");
 note.classList.add("note"); 
 
 const htmlData=`<div class="operation">
-<button class="edit btn btn-success"><i class="fas fa-edit"></i></button>
-<button  class="delete btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+<button class="edit btn btn-success"><i class="fas fa-edit"></i> Save and Edit</button>
+<button  class="delete btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</button>
 </div>
 <div class="main ${text ? "":"hidden"}"></div>
 <textarea class="${text ? "hidden":""}" ></textarea>`;
