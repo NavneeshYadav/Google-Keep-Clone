@@ -48,6 +48,8 @@ textarea{
 
 @media only screen and (max-width:764px) {
    .note{
-   
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    }
 }
